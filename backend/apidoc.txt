@@ -1,0 +1,12 @@
+http://localhost:8080/patientgeolocation?id=2&latitude=1&longtitude=2&problem=kardia
+αυτη ειναι η κληση για να στειλει ο ασθενης συντεταγμενες και προβλημα
+
+http://localhost:8080/doctorgeolocation?id=2&latitude=1&longtitude=2
+αυτη ειναι η κληση για να στειλει ο γιατρος συντεταγμενες 
+
+http://localhost:8080/doctorInfo?name=2&specialty=1&experience=2
+αυτη ειναι η κληση για να στειλει ο γιατρος τα στοιχεια του
+
+ http://localhost:8080/patientInfo?name=2&yearOfBirth=1&gender=2&weight=122
+αυτη ειναι η κληση για να στειλει ο γιατρος τα στοιχεια του
+
