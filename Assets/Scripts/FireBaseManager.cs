@@ -24,8 +24,8 @@ public class FireBaseManager : MonoBehaviour
         Debug.Log("Received a new message from: " + e.Message.From);
         Debug.Log("Received a new message from: " + e.Message.Data);
         //Debug.Log("Received a new message from: " + e.Message.);
-        textUser.gameObject.SetActive(true);
-        textUser.text = e.Message.Data["test"]; 
+        //textUser.gameObject.SetActive(true);
+        //textUser.text = e.Message.Data["test"]; 
 
         if (textUser!=null && e.Message.Data["test"]=="kariologos")
         {
@@ -33,7 +33,7 @@ public class FireBaseManager : MonoBehaviour
             textUser.text = "Έρχεται ο καρδιολόγος Γιαννής Μαραγκός";
         }
 
-        if (textUser != null && e.Message.Data["test"] == "kardiako")
+        if (docPanel != null && e.Message.Data["test"] == "kardiako")
         {
             docPanel.SetActive(true);
         }
