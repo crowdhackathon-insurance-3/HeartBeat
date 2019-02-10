@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "7355595671",
+    "firebase_url": "https://hackathon-97594.firebaseio.com",
+    "project_id": "hackathon-97594",
+    "storage_bucket": "hackathon-97594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7355595671:android:6343768fb3d464ee",
+        "android_client_info": {
+          "package_name": "com.hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7355595671-oe13np61s7eisqdh87iiha27puknqoj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEDFv11EEOJRG5kCeF3Bk-J3ws6wOkPqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
